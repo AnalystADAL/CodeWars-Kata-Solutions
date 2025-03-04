@@ -15,6 +15,6 @@ NOTE: Your solution should use pure SQL. Ruby is used within the test cases just
 ```sql
 SELECT * 
 FROM travelers 
-WHERE country NOT IN ('USA', 'Canada', 'Mexico')
+WHERE country NOT IN ('USA', 'Canada', 'Mexico')    -- Excluding == NOT IN!
 ;
 ```
